@@ -36,7 +36,7 @@ func CheckResponseForSentence(data []byte, sentence string) bool {
 }
 
 func CheckStatusOnWeb(IniPath string) {
-	const myurl = "https://dirstudio.laziodisco.it"
+	const myurl = "link og login"
 	users := ReadUsers(IniPath)
 	var message string
 	var manager *Manager
